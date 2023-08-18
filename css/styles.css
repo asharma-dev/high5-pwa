@@ -131,17 +131,17 @@ header button:active,
   text-align: justify;
 }
 
-@media screen and (min-width: 500px) {
-  #coverOverlay {
-    display: flex;
-  }
+/* @media screen and (min-width: 500px) { */
+#coverOverlay {
+  display: none;
 }
+/* } */
 
-@media screen and (max-width: 500px) {
-  #coverOverlay {
-    display: none;
-  }
+/* @media screen and (max-width: 500px) { */
+body {
+  padding: 0 2rem;
 }
+/* } */
 
 /* Sidebar */
 #sidebarOverlay {
