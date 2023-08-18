@@ -95,7 +95,7 @@ signupForm.addEventListener('submit', (e) => {
                 name: name,
                 bio: "Hello there! Nice to meet you!!",
                 timestamp: new firebase.firestore.FieldValue.serverTimestamp(),
-                photoURL: 'https://firebasestorage.googleapis.com/v0/b/high5-pwa.appspot.com/o/default-profile-pic.jpeg?alt=media&token=ab798555-acc2-4748-8657-fcfb019f84de',
+                photoURL: 'https://firebasestorage.googleapis.com/v0/b/high5-8436d.appspot.com/o/Sat%20Aug%2019%202023%2020%3A51%3A41%20GMT-0400%20(Eastern%20Daylight%20Time)-logo.svg?alt=media&token=274fc426-f072-4f04-88b8-3ccc89acfd37',
             }).then(() => {
                 // Show message
                 showAlert(`Account created successfully! Redirecting to home page.`, `success`);

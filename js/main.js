@@ -173,6 +173,7 @@ const createPost = (event) => {
                                 let updateObj = {
                                     photoURL: url,
                                 };
+                                console.log('<<<<<>>>>>',updateObj)
 
                                 // Add photo URL to post created
                                 db.collection('posts').doc(post.id).update(updateObj)
