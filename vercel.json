@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/high5/(.*)", "destination": "/high5/$1" }]
+}
