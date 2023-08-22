@@ -56,7 +56,7 @@ const showAlert = (content, type, duration = 3500) => {
 };
 
 showAlert(
-  `This application was meant to be used on mobile devices. For better stylings reduce the width to below 500px.`,
+  `This application is meant to be used on mobile devices. For better stylings reduce the width to below 500px.`,
   `warn`,
   10000
 );
